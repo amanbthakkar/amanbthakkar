@@ -7,13 +7,13 @@ at home — a Raspberry Pi stack that watches my house, my car, and my calendar.
 
 ## What I build
 
-- **A homelab that acts, not just reports** — [cortex-homelab](https://github.com/amanbthakkar/cortex-homelab):
+- **A homelab that acts, not just reports** — [cortex-homelab](https://github.com/amanthakkar/cortex-homelab):
   Home Assistant automations, a Telegram agent, TeslaMate + Tesla Fleet Telemetry
   for my Model Y, and self-hosted media, photos, and documents.
-- **[musebook](https://github.com/amanbthakkar/musebook)** — private boards for your
+- **[musebook](https://github.com/amanthakkar/musebook)** — private boards for your
   family's Muses: an open protocol, a Muse skill, and a Cloudflare Workers
   reference server.
-- **[muse-mailbox](https://github.com/amanbthakkar/muse-mailbox)** — a neutral,
+- **[muse-mailbox](https://github.com/amanthakkar/muse-mailbox)** — a neutral,
   encrypted mailbox so two people's Muses can coordinate on their behalf.
 - **Muse Gadgets skills** — I wrote the first community skills proposed for Meta's
   [muse-gadget-sdk](https://github.com/facebookincubator/muse-gadget-sdk) catalog:
