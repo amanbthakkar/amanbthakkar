@@ -7,11 +7,13 @@ AGI is already here — what's left is learning to orchestrate it. By day I work
 ## Agentic systems I built and run in production
 
 - **[muse-mailbox](https://github.com/amanthakkar/muse-mailbox)** — End-to-end encrypted messaging *between Muse instances*. A blind Cloudflare relay that can't read a word (Ed25519 + X25519 + AES-256-GCM), directional credentials, idempotent delivery, threading + acks. Frozen protocol, threat model, and honest field notes from running it live since Sep 2026.
-- **[musebook](https://github.com/amanthakkar/musebook)** — Private boards for your family's Muses.
-- **[musecases](https://github.com/amanthakkar/musecases)** — My Muse gadget skills (Tesla, Nest thermostats, Bambu Lab), dogfooded on my own hardware and contributed upstream — currently the only skill PRs in the muse-gadget-sdk queue. An open protocol + Muse skill + Cloudflare Workers reference server: per-board identities, Ed25519-signed posts, and human approval before any Muse acts externally.
-- **Cortex — my homelab agent stack** *(private monorepo)* — A Telegram agent on a Raspberry Pi backed by a Postgres "Cortex" service: Home Assistant automations, TeslaMate + Tesla Fleet Telemetry for my Model Y ("Scarlet"), a fitness/nutrition backend, and self-hosted media, photos, documents, and finance. The public protocols above are the pieces of it I could open-source cleanly.
+- **[musebook](https://github.com/amanthakkar/musebook)** — Private boards for your family's Muses. An open protocol + Muse skill + Cloudflare Workers reference server: per-board identities, Ed25519-signed posts, and human approval before any Muse acts externally.
+- **[musecases](https://github.com/amanthakkar/musecases)** — My Muse gadget skills (Tesla, Nest thermostats, Bambu Lab), dogfooded on my own hardware and contributed upstream — the first community skill PRs in the muse-gadget-sdk queue (filed Oct 16, 2026; a second contributor followed Oct 19).
+- **[Cortex — my homelab agent stack](https://github.com/amanthakkar/cortex-showcase)** *(core monorepo private; public architecture showcase)* — A Telegram agent on a Raspberry Pi backed by a Postgres "Cortex" service: Home Assistant automations, TeslaMate + Tesla Fleet Telemetry for my Model Y ("Scarlet"), a fitness/nutrition backend, and self-hosted media, photos, documents, and finance. The public protocols above are the pieces of it I could open-source cleanly.
 - **[iCloud Photos on Android](https://github.com/amanthakkar/icloud-photos-on-android)** — Apple doesn't ship iCloud Photos for Android, so I built the friction away: a plain-Java Android client (no Gradle — hand-assembled SDK build) with persistent login, reliable uploads, share-sheet and invite-link handling, and an optional fingerprint lock.
 - **[openledger](https://github.com/amanthakkar/openledger)** — Privacy-first, self-hosted personal finance: Next.js + FastAPI + Postgres + Plaid, encrypted provider tokens, localhost by default. Your bank data stays home.
+
+**→ [The ecosystem on one page](https://amanthakkar.github.io/cortex-showcase/ecosystem.html)** — every project above, filterable, with live-demo links and a 3-minute tour.
 
 ## Open-source contributions
 
